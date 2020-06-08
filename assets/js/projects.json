@@ -1,5 +1,27 @@
 [
   {
+    "id": 2,
+    "name": "NEWS-SCRAPPER",
+    "pictureUrl": "news-scrapper.jpg",
+    "links": {
+      "gitHub": "https://github.com/pavle-lukic/news-scrapper",
+      "liveDemo": "https://news-scrappers.herokuapp.com/"
+    },
+    "description": "Webapp which pulls articles from different websites based on the provided keywords. Type the keywords in the search box and press the search button to load the articles. App supports multiple keywords separated by a comma, so if you wish to search simultanious for Subject A and Subject B for an example, type 'Subject A, Subject B' in the search box. There is a limit of 3-4 different subjects",
+    "technologies": [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "Puppeteer",
+      "Cheerio",
+      "Handlebars",
+      "Jest",
+      "CSS3",
+      "HTML5",
+      "Axios"
+    ]
+  },
+  {
     "id": 1,
     "name": "WORKOUT-CREATOR",
     "pictureUrl": "workout-site.jpg",
@@ -7,18 +29,14 @@
       "gitHub": "https://github.com/pavle-lukic/workout-site",
       "liveDemo": "https://festive-mirzakhani-f97c23.netlify.app/index.html"
     },
-    "description": "Website with 2 parts. Part Two - Create your own custom workout by adding different exercises from the list. You can filter out the exercises based on the movement type, calorie burn, equipement type or Difficulty. Additionaly You can search for the desired exercise by typing in the search bar. When you add each exercise to the workout the muscle heatmap will show which musle groups are affected by that workout. Additional information like number of exercises, which muscle groups are affected and intensity is provided on the left side",
-    "technologies": ["JavaScript", "CSS3", "HTML5", "jQuery", "Axios"]
-  },
-  {
-    "id": 2,
-    "name": "Test",
-    "pictureUrl": "pic.jpg",
-    "links": {
-      "gitHub": "github.url",
-      "liveDemo": "liveDemo.url"
-    },
-    "description": "Projekat 1",
-    "technologies": ["javascript", "css3", "html5", "jQuery", "Axios"]
+    "description": "Website with a landing page and 2 parts. Part One - Custom static Website design showcasing call to action, email subscription, news articles and premade workout browsing. Part Two - Create your own custom workout by adding different exercises from the list. You can filter out the exercises based on the movement type, calorie burn, equipement type or Difficulty. Additionaly You can search for the desired exercise by typing in the search bar. When you add each exercise to the workout the muscle heatmap will show which musle groups are affected by that workout. Additional information like number of exercises, which muscle groups are affected and intensity is provided on the left side",
+    "technologies": [
+      "JavaScript",
+      "CSS3",
+      "HTML5",
+      "jQuery",
+      "Axios",
+      "Bootstrap 4"
+    ]
   }
 ]

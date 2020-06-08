@@ -4,25 +4,27 @@ $(document).ready(function () {
   let projectsArea = document.getElementById('projectsArea');
   let projectHtml = `<div class="col-lg-12 m-auto" id="projectsHeader">
   <h1 class="col-lg-12 mt-3 text-center">
-    <b> PROJECT AREA</b>
+    <b> PROJECTS</b>
   </h1>
+  <hr/>
 </div>`;
   const writeProjects = function (project) {
     return `
     <div class="project col-lg-10 m-auto">
             <h2 class="text-center">${project.name}</h2>
-            <img src="assets/img/${project.pictureUrl}" alt="${
-      project.name
-    }" class="img-fluid m-auto" />
+            <img class="img-thumbnail" src="assets/img/${
+              project.pictureUrl
+            }" alt="${project.name}" class="img-fluid m-auto" />
             <span class="col-md-6">
               <a href="${
                 project.links.liveDemo
               }"><button class="btn btn-outline-dark btn-lg  m-3">Live Demo</button></a>
               <a href="${
                 project.links.gitHub
-              }"><button class="btn btn-outline-dark btn-lg m-3">Code Example</button></a>
+              }"><button class="btn btn-outline-dark btn-lg m-3">GitHub Code</button></a>
             </span>
             <div class="">
+              <h3>Description</h3>
               <p class="text-justify">
                 ${project.description}
               </p>
