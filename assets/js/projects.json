@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "WORKOUT-CREATOR",
+    "pictureUrl": "workout-site.jpg",
+    "links": {
+      "gitHub": "https://github.com/pavle-lukic/workout-site",
+      "liveDemo": "https://festive-mirzakhani-f97c23.netlify.app/index.html"
+    },
+    "description": "Website with 2 parts. Part Two - Create your own custom workout by adding different exercises from the list. You can filter out the exercises based on the movement type, calorie burn, equipement type or Difficulty. Additionaly You can search for the desired exercise by typing in the search bar. When you add each exercise to the workout the muscle heatmap will show which musle groups are affected by that workout. Additional information like number of exercises, which muscle groups are affected and intensity is provided on the left side",
+    "technologies": ["JavaScript", "CSS3", "HTML5", "jQuery", "Axios"]
+  },
+  {
+    "id": 2,
+    "name": "Test",
+    "pictureUrl": "pic.jpg",
+    "links": {
+      "gitHub": "github.url",
+      "liveDemo": "liveDemo.url"
+    },
+    "description": "Projekat 1",
+    "technologies": ["javascript", "css3", "html5", "jQuery", "Axios"]
+  }
+]
